@@ -40,5 +40,5 @@ From REST Client: ```PUT http://localhost:8080/transferFunds JSON: {
 }```
 
 Using curl: 
-```$ curl -v -X PUT http://localhost:8080/transferFunds -H "Content-Type: application/json" -d '{"accountFromId":[account_number],"accountToId":[balance_amount],"amount":[amount]}'```
+```$ curl -v -X PUT http://localhost:8080/transferFunds -H "Content-Type: application/json" -d '{"accountFromId":[account_number],"accountToId":[balance_amount],"amount":[transfer_amount]}'```
 
