@@ -10,6 +10,7 @@ java -jar FundsTransfer-1.0.jar
 Note this runs on port 8080 
 
 ### Usage
+Note that the syntax might need to be tweaked for curl on windows command prompt
 
 ### Get all accounts in the database
 From REST Client: ```GET http://localhost:8080/accounts```
