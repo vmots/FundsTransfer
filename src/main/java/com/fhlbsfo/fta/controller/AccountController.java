@@ -85,7 +85,7 @@ public class AccountController {
 			@RequestParam(value = "fee", defaultValue = "0") int fee)
 			throws NotEnoughFundsException, AmountLessOrZeroException {
 
-		// TODO: re-visit BigDecimal formatting - should be across the board
+		// TODO: re-visit BigDecimal formatting - should be across the board. Implement optional fee logic
 		log.info("Transfer funds: " + fundsTransaction.toString());
 
 		double amount = util.formatTwoDecimal(fundsTransaction.getAmount());
