@@ -32,7 +32,7 @@ From REST Client: ```POST http://localhost:8080/accounts JSON: {"accountId": [ac
 Using curl: 
 ```$ curl -v -X POST http://localhost:8080/accounts -H "Content-Type: application/json" -d '{"accountId":[account_number],"balance":[balance_amount]}'```
 
-#### Transfer Funds between accounts
+### Transfer Funds between accounts
 From REST Client: ```PUT http://localhost:8080/transferFunds JSON: {
 "accountFromId": [account_from_number], 
 "accountToId": [account_to_number], 
